@@ -10,4 +10,4 @@ services:
     environment:
       JUPYTER_ENABLE_LAB: 'yes'
     command:
-      start-notebook.sh --NotebookApp.token='${JUPYTER_TOKEN}'
+      start-notebook.sh --NotebookApp.password='${JUPYTER_TOKEN}'
