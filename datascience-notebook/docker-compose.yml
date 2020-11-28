@@ -5,6 +5,7 @@ services:
     image: 'jupyter/datascience-notebook'
     ports:
       - '8081:8888'
+    restart: always
     volumes:
       - ./work:/home/jovyan/work
     environment:
