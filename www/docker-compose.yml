@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  www:
+    image: 'akaregi/azure:release-1.0.2'
+    ports:
+      - '8080:8080'
+    restart: always
